@@ -53,6 +53,21 @@ public class Main {
         byte CansPaintBrownFor1Classroom = (byte) (Classroom * CansPaintBrown1Classroom);
         System.out.println("В школе, где " + Classroom + " классов нужно " + CansPaintWhiteFor1Classroom + " банок белой краски и " + CansPaintBrownFor1Classroom + " банок коричневой краски");
         //Task #6
+        byte bananaPs = 5;
+        short bananaWeightGr = (short) (bananaPs * 80);
+        short milkMl = 200;
+        short milkWeightGr = (short) (milkMl * 105 / 100);
+        byte iceСreamPs = 2;
+        short iceCreamWeightGr = (short) (iceСreamPs * 100);
+        byte eggPs = 4;
+        short eggsWeightGr = (short) (eggPs * 70);
+        int breakfastWeightGr = bananaWeightGr + milkWeightGr + iceCreamWeightGr + eggsWeightGr;
+        float breakfastWeightKg = breakfastWeightGr / 1000f;
+        System.out.println("Вес спортивного завтрака состовляет " + breakfastWeightGr + " грамм");
+        System.out.println("Вес спортивного завтрака состовляет " + breakfastWeightKg + " килограмм");
+
+
+        
 
 
 
