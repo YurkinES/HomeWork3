@@ -30,6 +30,31 @@ public class Main {
         int paperSheetsForOneStudent = allPaperSheets / allStudents;
         System.out.println("На одного ученика приходится по " + paperSheetsForOneStudent + " листов бумаги");
         //Task #4
+        byte bottlePerMin = 8;
+        byte firstTimelap = 20;
+        short secondTimelap = 1440;
+        short thirdTimelap = 4320;
+        int fourthTimelap = 44640;
+        short numberBottleFirstTimelap = (short) (bottlePerMin * firstTimelap);
+        short numberBottleSecondTimelap = (short) (bottlePerMin * secondTimelap);
+        int numberBottleThirdTimelap = bottlePerMin * thirdTimelap;
+        int numberBottleFourthTimelap = bottlePerMin * fourthTimelap;
+        System.out.println("За 20 минут машина произвела " + numberBottleFirstTimelap + "шт. бутылок");
+        System.out.println("За 1 день машина произвела " + numberBottleSecondTimelap + "шт. бутылок");
+        System.out.println("За 3 дня машина произвела " + numberBottleThirdTimelap + "шт. бутылок");
+        System.out.println("За 1 месяц машина произвела " + numberBottleFourthTimelap + "шт. бутылок");
+        //Task #5
+        byte CansPaint = 120;
+        byte CansPaintWhite1Classroom = 2;
+        byte CansPaintBrown1Classroom = 4;
+        byte CansPaintFor1Classroom = (byte) (CansPaintBrown1Classroom + CansPaintWhite1Classroom);
+        byte Classroom = (byte) (CansPaint / CansPaintFor1Classroom);
+        byte CansPaintWhiteFor1Classroom = (byte) (Classroom * CansPaintWhite1Classroom);
+        byte CansPaintBrownFor1Classroom = (byte) (Classroom * CansPaintBrown1Classroom);
+        System.out.println("В школе, где " + Classroom + " классов нужно " + CansPaintWhiteFor1Classroom + " банок белой краски и " + CansPaintBrownFor1Classroom + " банок коричневой краски");
+        //Task #6
+
+
 
 
 
