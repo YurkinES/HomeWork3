@@ -76,8 +76,25 @@ public class Main {
         System.out.println("Спортсмен сбросит вес при пользовании первым рационом через " + daysFirsDiet + " дней");
         System.out.println("Спортсмен сбросит вес при пользовании вторым рационом через " + daysSecondDiet + " дней");
         System.out.println("Среднее время сброса веса " + midDaysDiet + " дня");
-
-
+        //Task #8
+        int mashaSalary = 67760;
+        int denisSalary = 83690;
+        int kristinaSalary = 76230;
+        int mashaNewSalary = mashaSalary + mashaSalary / 10;
+        int denisNewSalary = denisSalary + denisSalary / 10;
+        int kristinaNewSalary = kristinaSalary + kristinaSalary / 10;
+        int mashaYearSalary = mashaSalary * 12;
+        int denisYearSalary = denisSalary * 12;
+        int kristinaYearSalary = kristinaSalary * 12;
+        int mashaYearSalaryNew = mashaNewSalary * 12;
+        int denisYearSalaryNew = denisNewSalary * 12;
+        int kristinaYearSalaryNew = kristinaNewSalary * 12;
+        int mashaYearSalaryDifference = mashaYearSalaryNew - mashaYearSalary;
+        int denisYearSalaryDifference = denisYearSalaryNew - denisYearSalary;
+        int kristinaYearSalaryDifference = kristinaYearSalaryNew - kristinaYearSalary;
+        System.out.println("Маша теперь получает " + mashaNewSalary + ", годовой доход вырос на " + mashaYearSalaryDifference + " рублей");
+        System.out.println("Денис теперь получает " + denisNewSalary + ", годовой доход вырос на " + denisYearSalaryDifference + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaNewSalary + ", годовой доход вырос на " + kristinaYearSalaryDifference + " рублей");
         
 
 
