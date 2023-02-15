@@ -57,14 +57,25 @@ public class Main {
         short bananaWeightGr = (short) (bananaPs * 80);
         short milkMl = 200;
         short milkWeightGr = (short) (milkMl * 105 / 100);
-        byte iceСreamPs = 2;
-        short iceCreamWeightGr = (short) (iceСreamPs * 100);
+        byte iceCreamPs = 2;
+        short iceCreamWeightGr = (short) (iceCreamPs * 100);
         byte eggPs = 4;
         short eggsWeightGr = (short) (eggPs * 70);
         int breakfastWeightGr = bananaWeightGr + milkWeightGr + iceCreamWeightGr + eggsWeightGr;
         float breakfastWeightKg = breakfastWeightGr / 1000f;
         System.out.println("Вес спортивного завтрака состовляет " + breakfastWeightGr + " грамм");
         System.out.println("Вес спортивного завтрака состовляет " + breakfastWeightKg + " килограмм");
+        //Task #7
+        byte weightKg = 7;
+        short weightGr = 7 * 1000;
+        short firstDiet = 250;
+        short secondDiet = 500;
+        short daysFirsDiet = (short) (weightGr / firstDiet);
+        short daysSecondDiet = (short) (weightGr / secondDiet);
+        short midDaysDiet = (short) (daysFirsDiet / daysSecondDiet);
+        System.out.println("Спортсмен сбросит вес при пользовании первым рационом через " + daysFirsDiet + " дней");
+        System.out.println("Спортсмен сбросит вес при пользовании вторым рационом через " + daysSecondDiet + " дней");
+        System.out.println("Среднее время сброса веса " + midDaysDiet + " дня");
 
 
         
